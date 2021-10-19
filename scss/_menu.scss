@@ -20,6 +20,12 @@ li {
     margin: auto;
 }
 
+.centrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -64,10 +70,8 @@ body {
 }
 
 // ESTILOS CONTENIDO
-.contenido-seccion-presentacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contenido-seccion-presentacion>div {
+    width: 40%;
 }
 
 .contenido-seccion-presentacion {
@@ -99,5 +103,49 @@ body {
 .contenido-seccion-presentacion {
     .redes-sociales>div {
         width: 24px;
+    }
+}
+
+.contenido-seccion-presentacion {
+    .redes-sociales {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+}
+
+// ESTILOS BOTON CONTACTO
+.btn-contacto {
+    margin-top: 45px;
+}
+
+.btn-contacto {
+    .btn a {
+        display: inline-block;
+        padding: 15px 20px;
+        border-radius: 50px;
+        background-color: #f0810f;
+        color: #ffffff;
+        transition: background-color 1s ease;
+    }
+}
+
+.btn a:hover {
+    background-color: #ffffff;
+    color: #f0810f;
+}
+
+// ESTILOS ICONO SCROLL
+.icono-scroll-down {
+    margin-top: 70px;
+    color: #fff;
+    font-size: 12px;
+    .icono-scroll {
+        margin-top: 10px;
+        width: 16px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 }
