@@ -11,9 +11,8 @@ li {
   list-style: none; }
 
 .contenedor {
-  max-width: 1280px;
-  width: 80%;
-  margin: auto; }
+  max-width: 1024px;
+  margin: 0 auto; }
 
 .centrar {
   display: flex;
@@ -40,9 +39,6 @@ body {
       #content-header .menu__ul li {
         margin-right: 30px;
         color: #fff; }
-      #content-header .menu__ul li > img {
-        width: 32px;
-        height: 32px; }
 
 #content-header .nombre-menu {
   font-size: 30px; }
@@ -71,7 +67,7 @@ body {
     color: #f0810f; }
 
 .contenido-seccion-presentacion .redes-sociales > div {
-  width: 24px; }
+  width: 30px; }
 
 .contenido-seccion-presentacion .redes-sociales {
   display: flex;
@@ -103,3 +99,73 @@ body {
     .icono-scroll-down .icono-scroll img {
       width: 100%;
       height: 100%; }
+
+@media only screen and (max-width: 768px) {
+  .display-none {
+    display: none; }
+  #content-header {
+    background-image: url(../assets/fondo/fondo.svg);
+    background-color: #063852;
+    padding: 5px 0;
+    height: 100vh; }
+    #content-header .display {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(240, 129, 15, 0.5); }
+    #content-header .menu {
+      display: flex; }
+      #content-header .menu__ul {
+        display: flex;
+        align-items: center; }
+        #content-header .menu__ul li {
+          margin-right: 15px;
+          color: #fff; }
+  #content-header .nombre-menu {
+    font-size: 30px; }
+    #content-header .nombre-menu p {
+      color: #FFF;
+      font-weight: bold; }
+  .contenido-seccion-presentacion > div {
+    width: 100%; }
+  .contenido-seccion-presentacion .imagen-perfil {
+    width: 90px;
+    height: auto;
+    margin: 84px 0 50px 0; }
+    .contenido-seccion-presentacion .imagen-perfil img {
+      width: 100%;
+      height: 100%; }
+  .contenido-seccion-presentacion .nombre-titulo {
+    text-align: center; }
+    .contenido-seccion-presentacion .nombre-titulo h1 {
+      font-size: 25px;
+      color: #fff; }
+    .contenido-seccion-presentacion .nombre-titulo p {
+      font-size: 16px;
+      color: #f0810f; }
+  .contenido-seccion-presentacion {
+    padding-top: 50px; }
+    .contenido-seccion-presentacion .redes-sociales > div {
+      width: 24px; }
+  .contenido-seccion-presentacion .redes-sociales {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px; }
+  .btn-contacto {
+    margin-top: 45px; }
+  .btn-contacto .btn a {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: #f0810f;
+    color: #ffffff;
+    transition: background-color 1s ease; }
+  .icono-scroll-down {
+    margin-top: 230px;
+    color: #fff;
+    font-size: 12px; }
+    .icono-scroll-down .icono-scroll {
+      margin-top: 10px;
+      width: 16px; }
+      .icono-scroll-down .icono-scroll img {
+        width: 100%;
+        height: 100%; } }
