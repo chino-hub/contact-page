@@ -15,9 +15,8 @@ li {
 }
 
 .contenedor {
-    max-width: 1280px;
-    width: 80%;
-    margin: auto;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .centrar {
@@ -49,10 +48,6 @@ body {
             li {
                 margin-right: 30px;
                 color: #fff;
-            }
-            li>img {
-                width: 32px;
-                height: 32px;
             }
         }
     }
@@ -102,7 +97,7 @@ body {
 
 .contenido-seccion-presentacion {
     .redes-sociales>div {
-        width: 24px;
+        width: 30px;
     }
 }
 
@@ -146,6 +141,116 @@ body {
         img {
             width: 100%;
             height: 100%;
+        }
+    }
+}
+
+// VISTA MOBILE
+@media only screen and (max-width:768px) {
+    // CSS GENERAL
+    .display-none {
+        display: none;
+    }
+    // ESTILOS MENU
+    #content-header {
+        background-image: url(../assets/fondo/fondo.svg);
+        background-color: #063852;
+        padding: 5px 0;
+        height: 100vh;
+        .display {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(240, 129, 15, 0.5);
+        }
+        .menu {
+            display: flex;
+            &__ul {
+                display: flex;
+                align-items: center;
+                li {
+                    margin-right: 15px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    // ESTILOS NOMBRE-MENU
+    #content-header {
+        .nombre-menu {
+            font-size: 30px;
+            p {
+                color: #FFF;
+                font-weight: bold;
+            }
+        }
+    }
+    // ESTILOS CONTENIDO
+    .contenido-seccion-presentacion>div {
+        width: 100%;
+    }
+    .contenido-seccion-presentacion {
+        .imagen-perfil {
+            width: 90px;
+            height: auto;
+            margin: 84px 0 50px 0;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .contenido-seccion-presentacion {
+        .nombre-titulo {
+            text-align: center;
+            h1 {
+                font-size: 25px;
+                color: #fff;
+            }
+            p {
+                font-size: 16px;
+                color: #f0810f;
+            }
+        }
+    }
+    .contenido-seccion-presentacion {
+        padding-top: 50px;
+        .redes-sociales>div {
+            width: 24px;
+        }
+    }
+    .contenido-seccion-presentacion {
+        .redes-sociales {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 30px;
+        }
+    }
+    // ESTILOS BOTON CONTACTO
+    .btn-contacto {
+        margin-top: 45px;
+    }
+    .btn-contacto {
+        .btn a {
+            display: inline-block;
+            padding: 15px 20px;
+            border-radius: 50px;
+            background-color: #f0810f;
+            color: #ffffff;
+            transition: background-color 1s ease;
+        }
+    }
+    // ESTILOS ICONO SCROLL
+    .icono-scroll-down {
+        margin-top: 230px;
+        color: #fff;
+        font-size: 12px;
+        .icono-scroll {
+            margin-top: 10px;
+            width: 16px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }
