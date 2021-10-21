@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+// ESTILOS CARD
+.contenido-seccion-sobre-mi {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-skill {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(102, 102, 102, 0.5);
+    padding: 10px 0;
+    p {
+        width: 90%;
+        margin: auto;
+    }
+    .btn-contacto {
+        margin-top: 30px;
+    }
+}
+
+.contenido-perfil {
+    font-size: 2rem;
+    color: #063852;
+}
+
+.card-skill__skill-bar {
+    margin-top: 20px;
+    text-align: left;
+    width: 95%;
+    margin: auto;
+    span {
+        margin-left: 20px;
+    }
+}
+
+.skill-bar__bar {
+    margin: 15px 0 10px;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 8px;
+    border-radius: 10px;
+    .skill-bar__bar-html {
+        background-color: #063852;
+        width: 90%;
+        height: 8px;
+        border-radius: 10px;
+    }
+}
+
+.skill-bar__bar-css {
+    background-color: #ff4c60;
+    width: 90%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.skill-bar__bar-git {
+    background-color: #f0810f;
+    width: 80%;
+    height: 8px;
+    border-radius: 10px;
+}
