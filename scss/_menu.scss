@@ -130,21 +130,6 @@ body {
     color: #f0810f;
 }
 
-// ESTILOS ICONO SCROLL
-.icono-scroll-down {
-    margin-top: 70px;
-    color: #fff;
-    font-size: 12px;
-    .icono-scroll {
-        margin-top: 10px;
-        width: 16px;
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-}
-
 // VISTA MOBILE
 @media only screen and (max-width:768px) {
     // CSS GENERAL
@@ -164,6 +149,9 @@ body {
         }
         .menu {
             display: flex;
+            margin: auto;
+            padding-bottom: 10px;
+            margin-right: 0;
             &__ul {
                 display: flex;
                 align-items: center;
@@ -232,7 +220,7 @@ body {
     .btn-contacto {
         .btn a {
             display: inline-block;
-            padding: 15px 20px;
+            padding: 20px 25px;
             border-radius: 50px;
             background-color: #f0810f;
             color: #ffffff;

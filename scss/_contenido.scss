@@ -74,3 +74,58 @@ body {
     height: 8px;
     border-radius: 10px;
 }
+
+// CONTENIDO EXPERIENCIA 
+.contenido-seccion-estudio {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 18px;
+    .titulo {
+        padding: 30px 0;
+        font-size: 2rem;
+        color: #063852;
+    }
+}
+
+.contenido-seccion-estudio {
+    .contenido-estudio {
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 1px rgba(102, 102, 102, 0.5);
+        padding: 10px 0;
+        .estudio>h4 {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+.contenido-estudio {
+    .estudio {
+        text-align: left;
+        padding: 20px 0 15px 20px;
+        p {
+            color: #666;
+            font-size: 1rem;
+        }
+    }
+}
+
+.contenido-estudio {
+    .estudio__tiempo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+        .estudio__tiempo--icono {
+            width: 30px;
+            height: auto;
+        }
+        .estudio__tiempo--tiempo {
+            padding-left: 20px;
+            color: #666;
+            font-size: 1rem;
+        }
+    }
+}
