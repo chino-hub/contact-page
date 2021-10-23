@@ -11,7 +11,7 @@ body {
 
 // ESTILOS CARD
 .contenido-seccion-sobre-mi {
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     font-size: 18px;
 }
@@ -22,7 +22,7 @@ body {
     margin-top: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 1px rgba(102, 102, 102, 0.5);
-    padding: 10px 0;
+    padding: 30px 0;
     p {
         width: 90%;
         margin: auto;
@@ -30,11 +30,6 @@ body {
     .btn-contacto {
         margin-top: 30px;
     }
-}
-
-.contenido-perfil {
-    font-size: 2rem;
-    color: #063852;
 }
 
 .card-skill__skill-bar {
@@ -77,14 +72,15 @@ body {
 
 // CONTENIDO EXPERIENCIA 
 .contenido-seccion-estudio {
+    margin-top: 100px;
     text-align: center;
-    margin-top: 80px;
     font-size: 18px;
-    .titulo {
-        padding: 30px 0;
-        font-size: 2rem;
-        color: #063852;
-    }
+}
+
+.titulo {
+    padding: 30px 0;
+    font-size: 2.3rem;
+    color: #063852;
 }
 
 .contenido-seccion-estudio {
