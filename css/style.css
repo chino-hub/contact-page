@@ -38,8 +38,9 @@ body {
       display: flex;
       align-items: center; }
       #content-header .menu__ul li {
-        margin-right: 30px;
-        color: #fff; }
+        margin-right: 30px; }
+        #content-header .menu__ul li a {
+          color: #fff; }
 
 #content-header .nombre-menu {
   font-size: 30px; }

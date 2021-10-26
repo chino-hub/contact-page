@@ -47,7 +47,9 @@ body {
             align-items: center;
             li {
                 margin-right: 30px;
-                color: #fff;
+                a {
+                    color: #fff;
+                }
             }
         }
     }
