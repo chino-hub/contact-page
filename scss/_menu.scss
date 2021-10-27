@@ -33,25 +33,20 @@ body {
 #content-header {
     background-image: url(../assets/fondo/fondo.svg);
     background-color: #063852;
-    padding: 5px 0;
     height: 100vh;
-    .display {
-        display: flex;
-        justify-content: space-between;
-        border-bottom: 1px solid rgba(240, 129, 15, 0.5);
-    }
-    .menu {
-        display: flex;
-        &__ul {
-            display: flex;
-            align-items: center;
-            li {
-                margin-right: 30px;
-                a {
-                    color: #fff;
-                }
-            }
-        }
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.estilos-navbar {
+    .logo-nav {
+        color: #063852;
+        font-weight: bold;
+        font-size: 25px;
     }
 }
 
