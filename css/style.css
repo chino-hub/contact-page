@@ -26,21 +26,17 @@ body {
 #content-header {
   background-image: url(../assets/fondo/fondo.svg);
   background-color: #063852;
-  padding: 5px 0;
   height: 100vh; }
-  #content-header .display {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(240, 129, 15, 0.5); }
-  #content-header .menu {
-    display: flex; }
-    #content-header .menu__ul {
-      display: flex;
-      align-items: center; }
-      #content-header .menu__ul li {
-        margin-right: 30px; }
-        #content-header .menu__ul li a {
-          color: #fff; }
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+.estilos-navbar .logo-nav {
+  color: #063852;
+  font-weight: bold;
+  font-size: 25px; }
 
 #content-header .nombre-menu {
   font-size: 30px; }
