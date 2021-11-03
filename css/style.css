@@ -224,9 +224,10 @@ body {
   text-align: center;
   font-size: 18px; }
 
-.titulo {
+.titulo h3 {
   padding: 30px 0;
-  font-size: 2.3rem;
+  font-size: 40px;
+  font-weight: bold;
   color: #063852; }
 
 #contenido-seccion-estudio .contenido-estudio {
@@ -326,3 +327,147 @@ body {
   color: #fff;
   background-color: #063852;
   border-style: none; }
+
+@media only screen and (min-width: 768px) {
+  #contenido-seccion-sobre-mi {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 18px; }
+  .card-skill {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(102, 102, 102, 0.5);
+    padding: 30px 0; }
+    .card-skill p {
+      width: 90%;
+      margin: auto; }
+    .card-skill .btn-contacto {
+      margin-top: 30px; }
+  .card-skill__skill-bar {
+    margin-top: 20px;
+    text-align: left;
+    width: 95%;
+    margin: auto; }
+    .card-skill__skill-bar span {
+      margin-left: 20px; }
+  .skill-bar__bar {
+    margin: 15px 0 10px;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 8px;
+    border-radius: 10px; }
+    .skill-bar__bar .skill-bar__bar-html {
+      background-color: #063852;
+      width: 90%;
+      height: 8px;
+      border-radius: 10px; }
+  .skill-bar__bar-css {
+    background-color: #ff4c60;
+    width: 90%;
+    height: 8px;
+    border-radius: 10px; }
+  .skill-bar__bar-git {
+    background-color: #f0810f;
+    width: 80%;
+    height: 8px;
+    border-radius: 10px; }
+  #contenido-seccion-estudio {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 18px; }
+  .titulo h3 {
+    padding: 30px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #063852; }
+  #contenido-seccion-estudio .contenido-estudio {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(102, 102, 102, 0.5);
+    padding: 10px 0; }
+    #contenido-seccion-estudio .contenido-estudio .estudio > h4 {
+      font-size: 1.3rem; }
+  .contenido-estudio .estudio {
+    text-align: left;
+    padding: 20px 0 15px 20px; }
+    .contenido-estudio .estudio p {
+      color: #666;
+      font-size: 1rem; }
+  .contenido-estudio .estudio__tiempo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px; }
+    .contenido-estudio .estudio__tiempo .estudio__tiempo--icono {
+      width: 30px;
+      height: auto; }
+    .contenido-estudio .estudio__tiempo .estudio__tiempo--tiempo {
+      padding-left: 20px;
+      color: #666;
+      font-size: 1rem; }
+  #contenido-seccion-trabajos {
+    width: 95%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center; }
+    #contenido-seccion-trabajos .container-trabajos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 20px; }
+  #contenido-seccion-trabajos .container-trabajos__card {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(102, 102, 102, 0.5);
+    margin-bottom: 30px;
+    position: relative; }
+    #contenido-seccion-trabajos .container-trabajos__card img {
+      width: 100%;
+      height: 100%; }
+  .container-trabajos__card--filtro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(240, 129, 15, 0.7);
+    opacity: 0; }
+  .container-trabajos__card:hover .container-trabajos__card--filtro {
+    opacity: 1; }
+  #contendio-seccion-contacto {
+    margin-top: 100px;
+    padding-bottom: 30px;
+    text-align: center; }
+  .contendor-contacto {
+    width: 90%;
+    margin: auto; }
+    .contendor-contacto p {
+      padding: 0 0 30px 0;
+      color: #666; }
+  .contendor-contacto .form-input-style {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 15px; }
+  .contendor-contacto .form-input-text {
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 15px; }
+  .contendor-contacto .form-input-btn {
+    width: 100%;
+    padding: 7px 0;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #063852;
+    border-style: none; } }
